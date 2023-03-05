@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    justify-content: center;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1;
+}
+
+p{
+    margin: 0;
+    border: 0;
+}
+
+section {
+    display: block;
+}
+
+h1, h2, h3 {
+    font-size: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    font: inherit;
+    font-style: inherit;
+    text-decoration: none;
+}

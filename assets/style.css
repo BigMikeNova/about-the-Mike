@@ -211,36 +211,6 @@ main {
     color: var(--white);
 }
 
-#contact h2 {
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    display: flex;
-    text-decoration: underline;
-    justify-content: center;
-    font-size: xx-large;
-    padding: 10px 0 0;
-}
-
-#contact p, #contact a {
-    display: flex;
-    max-width: 100%;
-    flex-wrap: wrap;
-    margin: 25px;
-    padding: 10px;
-    line-height: 1.5;
-    justify-content: center;
-    color: var(--white);
-}
-
-#contact h2:hover {
-    color: var(--green);
-    cursor: pointer;
-}
-
-#contact p:hover, #contact a:hover {
-    color: var(--green);
-}
 
 #about {
     margin: 25px;
@@ -293,6 +263,37 @@ main {
 
 #about article:hover {
     color: var(--white);
+}
+
+#contact h2 {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 10px 0 0;
+}
+
+#contact p, #contact a {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 10px;
+    line-height: 1.5;
+    justify-content: center;
+    color: var(--white);
+}
+
+#contact h2:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+
+#contact p:hover, #contact a:hover {
+    color: var(--green);
 }
 
 footer {

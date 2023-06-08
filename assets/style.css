@@ -247,6 +247,41 @@ main {
     color: var(--white);
 }
 
+#recipeDrawer {
+    margin: 25px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    color: var(--green);
+    box-shadow: 0 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#recipeDrawer h3 {
+    padding: 10px 10px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    background: solid;
+    background-color: black;
+}
+
+#recipeDrawer p {
+    position: absolute;
+    bottom: 28px;
+    left: 120px;
+    display: hidden;
+    background: solid;
+    background-color: black;
+    padding: 2px 2px;
+}
+
+#recipeDrawer:hover {
+    color: var(--white);
+}
 
 #about {
     margin: 25px;
